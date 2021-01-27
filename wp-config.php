@@ -41,9 +41,9 @@ if ( file_exists( __DIR__ . '/local/wp-config-local.php' ) ) {
   include( __DIR__ . '/local/wp-config-local.php' );
   define( 'WP_LOCAL_DEV', true ); // We'll talk about this later
 } else {
-  define( 'DB_NAME',     'mikkamar_producao'       );
-  define( 'DB_USER',     'mikkamar_paula'     );
-  define( 'DB_PASSWORD', 'mikka2020' );
+  define( 'DB_NAME',     'mikkamar_verano_staging'       );
+  define( 'DB_USER',     'mikkamar_verano_staging'     );
+  define( 'DB_PASSWORD', '@aB%EvfB{_Jp' );
   define( 'DB_HOST',     'localhost'  );
 }
 
