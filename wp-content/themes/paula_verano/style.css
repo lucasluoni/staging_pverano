@@ -34,7 +34,7 @@ body {
   /*background-color: #F0F1F2;*/
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  color: #3A4A53;
+  color: #3a4a53;
 }
 
 h1,
@@ -45,7 +45,7 @@ h5,
 h6,
 a {
   font-family: 'Montserrat', sans-serif;
-  color: #3A4A53;
+  color: #3a4a53;
 }
 
 .cinzaClaro {
@@ -53,7 +53,7 @@ a {
 }
 
 a {
-  color: #3A4A53;
+  color: #3a4a53;
 }
 
 a:hover {
@@ -72,7 +72,7 @@ a:hover {
 */
 
 .yellow {
-  color: #FDB913;
+  color: #fdb913;
 }
 
 .bgCyan {
@@ -80,12 +80,12 @@ a:hover {
 }
 
 .text-dark {
-  color: #3A4A53 !important;
+  color: #3a4a53 !important;
 }
 
 .roxo {
   /*color: #322a3f;*/
-  color: #3A4A53;
+  color: #3a4a53;
 }
 
 /*.bgRoxo {
@@ -94,7 +94,7 @@ a:hover {
 */
 
 .bgAmarelo {
-  background-color: #FDB913;
+  background-color: #fdb913;
 }
 
 .btn {
@@ -151,11 +151,11 @@ a:hover {
 }
 
 .navbar-brand {
-  width: 250px;
-  height: 46px;
+  width: 248px;
+  height: 47px;
   display: flex;
   /*background-image: url('images/SVG/marca-mikka-marcenaria.svg');*/
-  background-image: url('images/marca-paula-verano.png');
+  background-image: url('images/SVG/marca-paula-verano.svg');
   margin-bottom: 40px;
 }
 
@@ -188,7 +188,7 @@ a:hover {
   display: block;
   position: absolute;
   bottom: 3px;
-  background-color: #FDB913;
+  background-color: #fdb913;
   transition: width 0.5s ease;
 }
 
@@ -269,7 +269,7 @@ button.navbar-toggler:focus {
   position: absolute;
   bottom: 0;
   /*background-color: #25e5e5;*/
-  background-color: #FDB913;
+  background-color: #fdb913;
   transition: width 0.5s ease;
 }
 
@@ -348,7 +348,7 @@ button.navbar-toggler:focus {
   display: block;
   position: absolute;
   bottom: -23px;
-  background-color: #FDB913;
+  background-color: #fdb913;
   transition: width 0.5s ease;
 }
 
@@ -373,27 +373,25 @@ textarea {
  *  ** Footer **
  */
 
- footer {
-  background-color: #3A4A53;
+footer {
+  background-color: #3a4a53;
   color: #fff;
- }
+}
 
- footer a {
+footer a {
   color: #fff;
- }
+}
 
- footer a:hover {
+footer a:hover {
   color: #fff;
   opacity: 0.7;
   cursor: pointer;
- }
+}
 
 .navbar-brand-footer {
-  width: 200px;
-  /*height: 44px;*/
-  height: 38px;
-  /*background-image: url('images/SVG/marca-mikka-marcenaria.svg');*/
-  background-image: url('images/marca-paula-verano-footer.png');
+  width: 198px;
+  height: 39px;
+  background-image: url('images/SVG/marca-paula-verano-footer.svg');
 }
 
 .navbar-brand-footer:before {
@@ -405,7 +403,8 @@ textarea {
  */
 
 .bgimg,
-.bgimg-2, #map {
+.bgimg-2,
+#map {
   position: relative;
   /*opacity: 0.65;*/
   background-attachment: fixed;
@@ -449,7 +448,7 @@ textarea {
   display: block;
   position: relative;
   /*top: 15px;*/
-  background-color: #FDB913;
+  background-color: #fdb913;
   transition: width 0.5s ease;
   margin-bottom: 0.5rem !important;
 }
@@ -546,7 +545,7 @@ textarea {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border: 3px solid #f3f3f3; /* Light grey */
-  border-top: 3px solid #FDB913;
+  border-top: 3px solid #fdb913;
   width: 50px;
   height: 50px;
   -webkit-animation: spin 2s linear infinite;

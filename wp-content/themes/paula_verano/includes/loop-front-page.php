@@ -70,19 +70,6 @@
 
 					</div>
 
-				<!-- <div id="loading" class="mx-auto" style="width:60px;display:block;"></div> -->
-
-					<!-- <div class="row">
-						<div class="col text-center">
-
-							<?php
-							// don't display the button if there are not enough posts
-							// if (  $my_posts->max_num_pages > 1 )
-							  // echo '<button type="button" id="load_more" class="btn text-uppercase px-2">ver mais</button>'; 
-							?>
-						</div>
-					</div> -->
-
 				</div>
 			</div>
 
@@ -123,7 +110,7 @@
 
 			<div class="container-fluid px-0">
 
-				<div class="bgimg-2 shadow"></div>
+				<!-- <div class="bgimg-2 shadow"></div> -->
 
 				<div class="container">
 					<div class="row">
