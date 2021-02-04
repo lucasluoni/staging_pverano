@@ -154,8 +154,7 @@ a:hover {
   width: 248px;
   height: 47px;
   display: flex;
-  /*background-image: url('images/SVG/marca-mikka-marcenaria.svg');*/
-  background-image: url('images/SVG/marca-paula-verano.svg');
+  background-image: url('images/SVG/marca-paula-verano.svgz');
   margin-bottom: 40px;
 }
 
