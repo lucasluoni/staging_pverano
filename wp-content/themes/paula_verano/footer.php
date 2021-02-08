@@ -182,30 +182,5 @@
   });
   </script>
 
-  <script
-    src="https://maps.googleapis.com/maps/api/js?
-    key=AIzaSyDnFZUITkGE0gohG5PaWhs2G3Dp1XqV_3E
-    &callback=initMap&libraries=&v=weekly"
-    defer
-  ></script>
-
-  <script>
-      // Initialize and add the map
-      function initMap() {
-        // Geolocalização da Gamboa
-        const gamboa = { lat: -22.894, lng: -43.188 };
-        // O mapa, centralizado na Gamboa
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 14,
-          center: gamboa,
-        });
-        // O pin poscionoado na Gamboa
-        const marker = new google.maps.Marker({
-          position: gamboa,
-          map: map,
-        });
-      }
-    </script>
-
   </body>
 </html>

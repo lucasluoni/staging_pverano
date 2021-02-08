@@ -121,9 +121,7 @@
 					</div>
 				</div>
 
-				<!-- <div class="bgimg-2 shadow"></div> -->
-				<!--The div element for the map -->
-			    <div id="map"></div>
+				<div class="bgimg-2 shadow"></div>
 
 			</div>
 

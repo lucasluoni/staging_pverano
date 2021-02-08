@@ -211,6 +211,12 @@ function font_awesome_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'font_awesome_styles' );
 
+function leaflet_styles() {
+    wp_register_style('leaflet', 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css', null, null, true);
+    wp_enqueue_style('leaflet');
+}
+add_action( 'wp_enqueue_scripts', 'font_awesome_styles' );
+
 function register_sharethis_scripts() {
     // wp_register_script( 'sharethis', 'https://platform-api.sharethis.com/js/sharethis.js#property=5eb417c2b892d40012e34568&product=inline-share-buttons async="async"', 'jquery', 'false', true);
     wp_register_script( 'sharethis', 'https://platform-api.sharethis.com/js/sharethis.js#property=5eb417c2b892d40012e34568&product=inline-share-buttons async="async"', 'jquery', 'false', true);
