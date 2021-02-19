@@ -14,7 +14,7 @@
                     <h5 class="text-uppercase cinzaClaro mb-0"><?php the_title(); ?></h5>
                   </div>
                   <div class="col-2  my-0 py-0 text-right">                
-                      <a class="btn rounded-0 text-uppercase text-white" style="margin-top: -10px; padding: 3px 7px; font-size: 12px; background-color: #5b6d77;" href="<?php echo get_site_url(); ?>">X</a>
+                      <a class="btn rounded-0 text-uppercase text-white" style="margin-top: -10px; padding: 3px 7px; font-size: 12px; background-color: #5b6d77;" href="<?php echo get_home_url(); ?>">X</a>
                   </div>
               </div>
 
