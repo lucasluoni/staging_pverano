@@ -53,7 +53,7 @@ function test_input($data) {
 
 $formcontent="De: $name \nE-mail: $email \nAssunto: $subject \n\nMensagem: $message";
 $recipient = 'Bcc: <'. get_option('admin_email') . '>'. "\r\n";
-$assunto = "Contato do site da Mikka Marcenaria";
+$assunto = "Contato do site da Paula Verano";
 $mailheader = "From: $email \r\n";
 if (mail($recipient, $assunto, $formcontent, $mailheader)) {
 	?>
