@@ -56,10 +56,10 @@
 
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 px-0 mt-1 pt-0  text-right">
+                <!-- <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-2 px-0 mt-1 pt-0  text-right">
                     <span class="small text-uppercase">share </span>
                     <div class="sharethis-inline-share-buttons"></div>
-                </div>
+                </div> -->
 
               </div>          
 
