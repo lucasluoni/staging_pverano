@@ -217,12 +217,19 @@ function leaflet_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'font_awesome_styles' );
 
-function register_sharethis_scripts() {
-    // wp_register_script( 'sharethis', 'https://platform-api.sharethis.com/js/sharethis.js#property=5eb417c2b892d40012e34568&product=inline-share-buttons async="async"', 'jquery', 'false', true);
-    wp_register_script( 'sharethis', 'https://platform-api.sharethis.com/js/sharethis.js#property=5eb417c2b892d40012e34568&product=inline-share-buttons async="async"', 'jquery', 'false', true);
-    wp_enqueue_script( 'sharethis');
+// function register_sharethis_scripts() {
+//     // wp_register_script( 'sharethis', 'https://platform-api.sharethis.com/js/sharethis.js#property=5eb417c2b892d40012e34568&product=inline-share-buttons async="async"', 'jquery', 'false', true);
+//     wp_register_script( 'sharethis', 'https://platform-api.sharethis.com/js/sharethis.js#property=5eb417c2b892d40012e34568&product=inline-share-buttons async="async"', 'jquery', 'false', true);
+//     wp_enqueue_script( 'sharethis');
+// }
+// add_action( 'wp_enqueue_scripts', 'register_sharethis_scripts' );
+
+/* Custom script with no dependencies, enqueued in the footer */
+add_action('wp_enqueue_scripts', 'pverano_enqueue_custom_js');
+function pverano_enqueue_custom_js() {
+    wp_enqueue_script('custom', get_stylesheet_directory_uri().'/js/custom.js', 
+    array(), false, true);
 }
-add_action( 'wp_enqueue_scripts', 'register_sharethis_scripts' );
 
 https://platform-api.sharethis.com/js/sharethis.js?ver=5.4.2#property=580918c33fb8410011bc7250&product=unknown-buttons
 
